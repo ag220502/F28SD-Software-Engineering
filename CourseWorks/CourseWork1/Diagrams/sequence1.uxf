@@ -1,0 +1,64 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram no</help_text><element><id>Relation</id><coordinates><x>320</x><y>20</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>280</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>_:Guest_
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>320</x><y>120</y><w>20</w><h>220</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>460</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>_:Keypad_
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>660</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>_:SOS_
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>860</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>_:SRS_
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>20</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>20</y><w>30</w><h>300</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;280</additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>20</y><w>30</w><h>330</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;310</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>170</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+selectsGuestMode</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>500</x><y>120</y><w>20</w><h>230</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>250</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+requestsOTC</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>280</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+entersOTC</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>700</x><y>300</y><w>20</w><h>870</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>130</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+asksAccessMode</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>300</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+guestValidaition(otc)</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>900</x><y>330</y><w>20</w><h>310</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>340</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+verifyGuestDetails(otc)</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>600</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+returnsStaffId</panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>710</x><y>700</y><w>20</w><h>40</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>650</y><w>200</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+StaffInBuilding(staffId)</panel_attributes><additional_attributes>20;50;60;50;60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>630</y><w>30</w><h>690</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;670</additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>880</y><w>180</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+validateGuestTime
+group=3</panel_attributes><additional_attributes>20;50;60;50;60;10;10;10</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>710</x><y>910</y><w>20</w><h>40</h></coordinates><panel_attributes>
+bg=yellow
+group=3</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>500</x><y>1120</y><w>20</w><h>110</h></coordinates><panel_attributes>
+bg=yellow
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>340</y><w>30</w><h>140</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>1130</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+detailsVerified
+group=1</panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>320</y><w>30</w><h>170</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>320</x><y>1170</y><w>20</w><h>70</h></coordinates><panel_attributes>
+bg=yellow
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>1180</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+accessGranted
+group=1</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>260</x><y>202</y><w>710</w><h>320</h></coordinates><panel_attributes>loop
+--
+[until(valid OTC)]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>290</x><y>382</y><w>650</w><h>130</h></coordinates><panel_attributes>opt
+--
+[invalid OTC]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>432</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+notifyInvalidOtc</panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>442</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+notifyInvalidOtc</panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>500</x><y>460</y><w>20</w><h>30</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>320</x><y>470</y><w>20</w><h>30</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>452</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+notifyInvalidOtc</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>260</x><y>540</y><w>710</w><h>720</h></coordinates><panel_attributes>opt
+--
+
+-.
+[valid OTC]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>280</x><y>749</y><w>620</w><h>130</h></coordinates><panel_attributes>opt
+--
+[staffNotAvailable]
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>802</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+notifyStaffNotAvailable
+group=4</panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>822</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+notifyStaffNotAvailable
+group=4</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>500</x><y>820</y><w>20</w><h>40</h></coordinates><panel_attributes>
+bg=yellow
+group=4</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>320</x><y>839</y><w>20</w><h>30</h></coordinates><panel_attributes>
+bg=yellow
+group=4</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>480</y><w>30</w><h>360</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;340</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>280</x><y>962</y><w>620</w><h>130</h></coordinates><panel_attributes>opt
+--
+[Invalid Guest Time]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>1012</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+notifyInvalidTime
+group=2</panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>1032</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+notifyInvalidTime
+group=2</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>500</x><y>1030</y><w>20</w><h>40</h></coordinates><panel_attributes>
+bg=yellow
+group=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>320</x><y>1050</y><w>20</w><h>30</h></coordinates><panel_attributes>
+bg=yellow
+group=2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>490</y><w>30</w><h>370</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;350</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>860</y><w>30</w><h>210</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;190</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>1070</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>850</y><w>30</w><h>200</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>1060</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>1230</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>1220</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>1160</y><w>30</w><h>160</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element></diagram>
